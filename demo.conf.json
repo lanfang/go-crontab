@@ -1,0 +1,11 @@
+{
+	"MallDb": {
+		"MysqlConn" : "test:test@tcp(localhost:3306)/timer_db?charset=utf8mb4&parseTime=true&loc=Asia%2FShanghai",
+		"MysqlConnectPoolSize" : 20
+	},
+	"RPCListen":":6557",
+	"LogFile" : "go-crontab.log",
+	"LogDir" : "/home/vagrant/log/go_log",
+	"LogRetentionTime_Desc":"数据库里的log保留时间",
+	"LogRetentionTime":1296000
+}
